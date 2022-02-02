@@ -8,12 +8,16 @@
 import axios from 'axios';
 
 import SearchBar from "@/components/SearchBar";
-const API_KEY = 'AIzaSyCXI4IQ5tPxE0Ttllk4srTUnTG7ra8Y9rs';
 
 export default {
   name: 'App',
   components: {
     SearchBar
+  },
+  data(){
+    return {
+      api_key: process.env.API_KEY
+    }
   },
   methods:{
     onTermChange: function (searchTerm){
