@@ -1,7 +1,7 @@
 <template>
   <div>
-<!--    added event modifier because API has limited request-->
-    <input type="text" placeholder="Search something..." @keyup.enter="onInput">
+    <!--added event modifier because API has limited request-->
+    <input type="text" placeholder="Search" @keyup.enter="onInput">
   </div>
 </template>
 
