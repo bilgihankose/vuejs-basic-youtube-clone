@@ -24,7 +24,7 @@ export default {
       //get a request to youtube api
       axios.get("https://www.googleapis.com/youtube/v3/search", {
         params:{
-          key: API_KEY,
+          key: this.api_key,
           type: 'video',
           part: 'snippet',
           q: searchTerm
