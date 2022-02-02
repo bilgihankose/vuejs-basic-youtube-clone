@@ -1,6 +1,7 @@
 <template>
   <div>
-    <input @input="onInput">
+<!--    added event modifier because API has limited request-->
+    <input type="text" placeholder="Search something..." @keyup.enter="onInput">
   </div>
 </template>
 
@@ -17,5 +18,12 @@ export default {
 </script>
 
 <style scoped>
+input{
+  width: 75%;
+}
 
+div{
+  text-align: center;
+  margin: 20px;
+}
 </style>

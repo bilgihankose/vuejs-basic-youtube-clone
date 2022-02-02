@@ -20,7 +20,5 @@ npm run build
 npm run lint
 ```
 
-https://bilgihankose.github.io/vuejs-basic-youtube-clone/
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
